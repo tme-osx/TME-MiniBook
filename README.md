@@ -4,7 +4,7 @@ Over the past four years, we have been actively publishing our work on Medium, s
 
 **⚠️ Please note that this mini-book is still work-in-progress.**
 
-## About the Book
+## About the Mini-Book
 
 This mini-book is a compressed knowhow guide that brings together all our published articles into a single, coherent narrative. Each chapter has been crafted to maintain the depth and clarity of the original content while providing a continuous and engaging storytelling experience. The main theme revolves around how Telco applications can be modernized using:
 
