@@ -1,10 +1,10 @@
 # Modernizing Telco Applications: The Complete Guide
 
-Hi, my name is **Fatih E. NAR**. I am a seasoned expert in the telecommunications industry with a focus on modernizing Telco applications using cutting-edge technologies. Over the past three years, I have been actively publishing my work on Medium, sharing insights and deep dives into the future of Telco with over 23 episodes of detailed articles. You can check out my Medium publication [here](https://medium.com/open-5g-hypercore).
+Over the past three years, we have been actively publishing my work on Medium, sharing insights and deep dives into the future of Telco with over 23 episodes of detailed articles. You can check out our Medium Publications [here](https://medium.com/open-5g-hypercore).
 
 ## About the Book
 
-This book is a comprehensive guide that brings together all my published articles into a single, coherent narrative. Each chapter has been carefully crafted to maintain the depth and clarity of the original content while providing a continuous and engaging storytelling experience. The main theme revolves around how Telco applications can be modernized using:
+This mini-book is a compressed knowhow guide that brings together all our published articles into a single, coherent narrative. Each chapter has been crafted to maintain the depth and clarity of the original content while providing a continuous and engaging storytelling experience. The main theme revolves around how Telco applications can be modernized using:
 
 - **Kubernetes (K8s)**
 - **Service Mesh**
