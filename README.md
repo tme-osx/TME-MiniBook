@@ -1,4 +1,4 @@
-# The Hitchhiker's Guide to the CloudNative Telco Galaxy
+# The Hitchhiker's Guide to the Cloud-Native Telco Galaxy
 
 <div align="center">
     <img src="https://github.com/tme-osx/TME-MiniBook/blob/main/images/42.png" width="321"/>
