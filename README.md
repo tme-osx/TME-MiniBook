@@ -1,4 +1,8 @@
-# The Hitchhiker's Guide to the CloudNative Telco Galaxy (Episode-42)
+# The Hitchhiker's Guide to the CloudNative Telco Galaxy
+
+<div align="center">
+    <img src="https://github.com/tme-osx/TME-MiniBook/blob/main/images/42.png" width="321"/>
+</div>
 
 Over the past four years, we have been actively publishing our work on Medium, sharing insights and deep dives into the future of Telco with over 23 episodes of detailed articles. You can check out our Medium Publications [here](https://medium.com/open-5g-hypercore). <br>
 
