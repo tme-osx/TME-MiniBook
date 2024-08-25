@@ -31,7 +31,7 @@ The mini-book delves into how data from OS, platform, and applications can feed 
 
 ## How to Access the Book
 
-Each chapter of the book is available as an individual `.md` file in this repository. You can download and read them at your convenience. If you prefer to have the book as a single document, you can easily compile the chapters into a `.doc` file using your preferred text editor.
+Each chapter of the book is available as an individual `.md` file in this repository. You can download and read them at your convenience. If you prefer to have the book as a single document, you can easily compile the chapters into other file formats using your preferred text editor.
 
 ## Chapters
 
