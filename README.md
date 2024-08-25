@@ -28,8 +28,8 @@ Each chapter of the book is available as an individual `.txt` file in this repos
 ## Chapters
 
 - **[Introduction](./intro.txt)**
-- **[Chapter 1: The Start Point for Successful 5G](./chapter01.txt)**
-- **[Chapter 2: Distributed Scalable 5G with Observability](./chapter02.txt)**
+- **[Chapter 1: The Start Point for Successful 5G](./Chapter-01.md)**
+- **[Chapter 2: Distributed Scalable 5G with Observability](./Chapter-02.md)**
 - **[Chapter 3: Autoscaled 5G Core](./chapter03.txt)**
 - **[Chapter 4: Enhancing Security and Performance with eBPF](./chapter04.txt)**
 - **[Chapter 5: AI-Driven OSS and BSS](./chapter05.txt)**
