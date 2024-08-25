@@ -6,24 +6,26 @@ Over the past four years, we have been actively publishing our work on Medium, s
 
 This mini-book is a compressed knowhow guide that brings together all our published articles into a single, coherent narrative. Each chapter has been crafted to maintain the depth and clarity of the original content while providing a continuous and engaging storytelling experience. The main theme revolves around how Telco applications can be modernized using:
 
-- **Kubernetes (K8s)**
+- **Cloud Native Approach**
 - **Service Mesh**
-- **Data Mesh**
+- **Observability**
 - **OpenTelemetry (OTel)**
 - **eBPF**
+- **Data Engineering with Cloud**
+- **Use of AI for OSS&BSS**
 
-The book delves into how data from OS, platform, and applications can feed into AI-driven OSS and BSS for platform engineering and Site Reliability Engineering (SRE). It also addresses how to avoid the pitfalls of AI blindness, ensuring that the AI systems integrated into Telco operations are both robust and reliable.
+The mini-book delves into how data from OS, platform, and applications can feed into AI-driven OSS and BSS for platform engineering and Site Reliability Engineering (SRE). It also addresses how to avoid the pitfalls of AI blindness, ensuring that the AI systems integrated into Telco operations are both robust and reliable.
 
 ## Key Topics Covered
 
-- **Kubernetes & Service Mesh**: Learn how these technologies are transforming Telco applications, enabling scalable and resilient infrastructures.
-- **Data Mesh & Observability**: Understand the importance of data as a product and how observability with OTel and eBPF can enhance system performance.
+- **Application Modernization with use of Kubernetes & Service Mesh**: Learn how these technologies are transforming Telco applications, enabling scalable and resilient infrastructures.
+- **Data Harvesting & Correlation**: Understand the importance of data as a product and how observability with OTel and eBPF can enhance system performance.
 - **AI-Driven OSS/BSS**: Discover how AI can be integrated into network operations and business processes, optimizing efficiency and customer experience.
 - **Avoiding AI Blindness**: Get insights into the challenges of over-reliance on AI and strategies to maintain critical human oversight.
 
 ## How to Access the Book
 
-Each chapter of the book is available as an individual `.txt` file in this repository. You can download and read them at your convenience. If you prefer to have the book as a single document, you can easily compile the chapters into a `.doc` file using your preferred text editor.
+Each chapter of the book is available as an individual `.md` file in this repository. You can download and read them at your convenience. If you prefer to have the book as a single document, you can easily compile the chapters into a `.doc` file using your preferred text editor.
 
 ## Chapters
 
@@ -37,10 +39,6 @@ Each chapter of the book is available as an individual `.txt` file in this repos
 - **[Chapter 7: Case Studies from TME-AIX](./Chapter-07.md)**
 - **[Final Summary and Future Outlook](./Final.md)**
 
-## About the Author
-
-You can learn more about me on my [LinkedIn profile](https://www.linkedin.com/in/fenar/) or read my short bio [here](https://about.me/fenar). I am passionate about sharing knowledge and driving innovation in the telecommunications industry.
-
 ## Feedback and Contributions
 
-I welcome any feedback or contributions to this book. If you have any suggestions or would like to discuss the content further, please feel free to reach out or submit a pull request.
+We welcome any feedback or contributions to this book. If you have any suggestions or would like to discuss the content further, please feel free to reach out or submit a pull request.
