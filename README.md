@@ -27,7 +27,7 @@ Each chapter of the book is available as an individual `.txt` file in this repos
 
 ## Chapters
 
-- **[Introduction](./intro.txt)**
+- **[Introduction](./Indroduction.md)**
 - **[Chapter 1: The Start Point for Successful 5G](./Chapter-01.md)**
 - **[Chapter 2: Distributed Scalable 5G with Observability](./Chapter-02.md)**
 - **[Chapter 3: Autoscaled 5G Core](./chapter03.txt)**
