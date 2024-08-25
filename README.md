@@ -1,6 +1,6 @@
 # Modernizing Telco Applications: The Complete Guide
 
-Over the past three years, we have been actively publishing my work on Medium, sharing insights and deep dives into the future of Telco with over 23 episodes of detailed articles. You can check out our Medium Publications [here](https://medium.com/open-5g-hypercore).
+Over the past four years, we have been actively publishing my work on Medium, sharing insights and deep dives into the future of Telco with over 23 episodes of detailed articles. You can check out our Medium Publications [here](https://medium.com/open-5g-hypercore).
 
 ## About the Book
 
