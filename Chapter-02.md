@@ -14,7 +14,7 @@ In traditional hyperscaler infrastructure, regions are divided into availability
 
 In a distributed 5G network, observability is more than just monitoring. It encompasses the ability to trace, log, and measure the performance of every microservice and network function across multiple clusters and geographic locations. The complexity of 5G networks, with their diverse components and high-speed data flows, makes it essential to deploy an observability strategy that can scale with the network and provide actionable insights.
 
-## Enhanced Observability Section
+## Enhanced Observability 
 
 ### Infrastructure-Level Observability
 
