@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The telecommunications industry is at a pivotal moment, with significant business opportunities and technical challenges in building and delivering 5G services using hyperscaler infrastructures. Major communication service providers are working towards integrating their on-premise infrastructure with commoditized cloud computing to create scalable and accessible 5G solutions. Despite the unique approaches each provider takes, there is a pressing need for an open 5G solution blueprint that leverages common solution elements and open-source technologies, capable of working across multiple hyperscaler infrastructures.
+The telecommunications industry is at a pivotal moment, with significant business opportunities and technical challenges in building and delivering 5G services using cloud-based infrastructures. Major communication service providers are working towards integrating their on-premise infrastructure with commoditized cloud computing to create scalable and accessible 5G solutions. Despite the unique approaches each provider takes, there is a pressing need for an open 5G solution blueprint that leverages common solution elements and open-source technologies, capable of working across hybrid infrastructures.
 
 ## What is Cloud-Native?
 
@@ -29,12 +29,12 @@ For the telecom industry, adopting a cloud-native approach is not just about mod
 Kubernetes (K8s) has become the de facto standard for orchestrating containerized applications. It plays a critical role in cloud-native telco environments due to its ability to:
 
 - **Automate Deployment and Scaling**: Kubernetes manages the deployment, scaling, and operation of containerized applications, ensuring that telecom services are always available and can meet demand.
-- **Provide Multi-Cluster Management**: In a telco environment, Kubernetes supports multi-cluster deployments, which is essential for managing distributed 5G Core networks across multiple locations.
-- **Enable Continuous Integration/Continuous Deployment (CI/CD)**: Kubernetes integrates seamlessly with CI/CD pipelines, enabling frequent, automated deployments of network functions, which is vital for maintaining service continuity and reliability.
+- **Provide Multi-Cluster Management**: In a telco environment, with the help of tools like Open Cluster Management (OCM), Kubernetes allows for multi-cluster deployments, which is essential for managing distributed 5G Core networks across multiple locations.
+- **Enable Continuous Integration/Continuous Deployment (CI/CD) and GitOps**: Kubernetes integrates seamlessly with CI/CD and GitOps pipelines, enabling frequent, automated deployments of network functions, which is vital for maintaining service continuity and reliability.
 
 ### The Role of Service Mesh in Telco Networks
 
-Service mesh technology, such as Istio, provides a dedicated infrastructure layer for managing service-to-service communication in a microservices architecture. It is crucial in telco networks for several reasons:
+Service mesh technology, such as Istio, provides a dedicated infrastructure layer for managing service-to-service communication in a microservices architecture. It is useful in telco networks for several reasons:
 
 - **Traffic Management**: Service mesh controls the flow of traffic between microservices, offering advanced features like load balancing, traffic splitting, and retries, which are essential for optimizing network performance.
 - **Security**: It provides built-in security features such as mutual TLS, enabling secure communication between services without requiring changes to the application code.
@@ -46,11 +46,11 @@ Service mesh technology, such as Istio, provides a dedicated infrastructure laye
 
 ## 5G Solution Architecture
 
-The 5G solution stack can be categorized into four main components: infrastructure, application platform, 5G applications, and management & orchestration. The infrastructure provides the necessary compute, network, and storage resources, while the application platform accommodates 5G applications with features like declarative state consistency, scaling, healing, and monitoring. The management and orchestration layer ensures dynamic scaling and efficient operation across multiple locations.
+The 5G solution stack can be categorized into four main components: hardware or cloud provider infrastructure, application platform, 5G applications, and management & orchestration. The infrastructure provides the necessary compute, network, and storage resources, while the application platform accommodates 5G applications with features like declarative state consistency, scaling, healing, and monitoring. The management and orchestration layer ensures dynamic scaling and efficient operation across multiple locations.
 
 ### Infrastructure
 
-The infrastructure layer is composed of services and resources provided by cloud service providers. These include core services such as compute, network, storage, infrastructure sub-utilities (e.g., NTP source), additive network functions (e.g., firewalls, load balancers), and add-on software services such as identity management and infrastructure automation toolboxes. Despite the similarities among hyperscalers, the access methodologies, or APIs, vary, adding complexity to the management of different stacks. Application platform installers and management toolboxes can mitigate this complexity by introducing infrastructure agnosticism.
+The infrastructure layer can be composed of baremetal computes, storage and networking components for on-premise deployments or services and resources provided by public cloud service providers. In case of on-premise data centers, service providers have the freedom and responsibility of selecting and maintaining all the necessary hardware and auxiliary services.  Hyperscaler, on the other hand, provide all the core services, such as compute, network, and storage, infrastructure sub-utilities (e.g., NTP source), supplementary network functions (e.g., firewalls, load balancers), and add-on software services such as identity management and infrastructure automation toolboxes. Despite the similarities among hyperscalers, the access methodologies, or APIs, vary, adding complexity to the management of different stacks. Application platform installers and management toolboxes can mitigate this complexity by introducing infrastructure agnosticism.
 
 ### Application Platform
 
@@ -60,7 +60,7 @@ The application platform is the core engine that runs the 5G application stack. 
 
 5G applications can be subcategorized into:
 
-- **Core Network Functions (CNFs)**: These include essential network functions like the Access and Mobility Management Function (AMF), Session Management Function (SMF), and User Plane Function (UPF).
+- **Core Network Functions**: These include essential network functions like the Access and Mobility Management Function (AMF), Session Management Function (SMF), and User Plane Function (UPF).
 - **Supplementary Functions**: These include functions that enhance the capabilities of the core network, such as Network Exposure Function (NEF) and Network Slice Selection Function (NSSF).
 - **Management Functions**: These involve the orchestration and management of the network, including functions like the Network Repository Function (NRF) and the Policy Control Function (PCF).
 
