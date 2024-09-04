@@ -18,7 +18,7 @@ Each of these autoscaling mechanisms plays a critical role in maintaining the pe
 
 The architecture of an autoscaled 5G Core involves several key components:
 
-- **Source Repository**: Houses the 5G software stack, including core network functions (CNFs) and supplementary services.
+- **Source Repository**: Houses the 5G software stack, including core network functions and supplementary services.
 - **Management/Hub Cluster**: Manages the lifecycle of clusters, including updates, scaling, and policy enforcement.
 - **Spoke/Managed Clusters**: Deploy 5G CNFs and handle the traffic and workloads specific to different geographic locations or network slices.
 - **Service Mesh**: Provides observability, traffic steering, and security across the distributed microservices architecture.
@@ -40,7 +40,7 @@ In our testbed, we validated this architecture on a hyperscaler infrastructure, 
 
 1. **K8s Metrics Collection & Usage**:
    - Kubernetes uses the Metrics Server to collect resource usage data such as CPU and memory utilization from the kubelets. This data is critical for making autoscaling decisions.
-   - In a 5G network, metrics like packet processing rates, session establishment times, and latency are also collected and used to trigger scaling actions.
+   - In a 5G network, custom metrics like packet processing rates, session establishment times, and latency are also collected and used to trigger scaling actions.
 
 2. **Horizontal Pod Autoscaler (HPA)**:
    - HPA is configured to scale the number of pods based on the CPU utilization of the 5G Core functions. For example, if the CPU usage of the UPF pods exceeds a certain threshold, HPA automatically increases the number of UPF pods to handle the additional load.
@@ -59,10 +59,12 @@ In our testbed, we validated this architecture on a hyperscaler infrastructure, 
 1. **HPA vs. VPA for 5G Stack**:
    - While HPA scales the number of pods, VPA adjusts resource allocation for existing pods. For 5G core, HPA is preferred to avoid service outages caused by pod restarts. However, a combination of HPA and VPA can be used to ensure both scalability and optimal resource utilization.
    - For example, in scenarios where session loads are highly variable, HPA can handle scaling the number of session management pods, while VPA ensures that each pod is equipped with the necessary resources to manage the sessions effectively.
+   - Additional concern that needs to be addressed when using HPA is the support from the application itself, especially for core components that are not stateless and require session awareness.  Ability to correctly load balance ingress traffic, especially for telco-specific protocols, such as SCTP, needs to be taken into account.  
 
 2. **Cluster Scaling for 5G Workloads**:
    - Cluster Autoscaler works in conjunction with HPA to ensure that new pods have the necessary resources by scaling the cluster size as needed. This is particularly important in multi-cluster deployments where traffic loads can vary significantly across regions.
    - In a real-world scenario, a telecom operator might use Cluster Autoscaler to add more nodes in a specific geographic region during a major event, such as a concert or sports event, where a sudden spike in data traffic is expected.
+   - Cluster Autoscaler is more relevant for public cloud deployments, in baremetal deployments ability to scale is limited by the avalability of physical resources.  
 
 3. **Smart Workload Scheduling**:
    - Leveraging GitOps for consistent workload deployment and configuration management across clusters. GitOps ensures that all changes to the network configuration are version-controlled and automatically applied across all clusters, reducing the risk of configuration drift.
@@ -73,8 +75,8 @@ In our testbed, we validated this architecture on a hyperscaler infrastructure, 
 **Background**: A major European telecom operator needed to ensure their 5G Core could handle the fluctuating demands of millions of users across multiple countries. They sought to implement an autoscaling solution that could dynamically adjust to these demands while minimizing operational costs.
 
 **Implementation**:
-- The operator used Kubernetes HPA to scale their 5G Core network functions, including the Access and Mobility Management Function (AMF) and Session Management Function (SMF), based on real-time CPU and memory usage.
-- VPA was deployed to adjust the resource limits for the User Plane Function (UPF) based on actual traffic demands. This ensured that each UPF pod had enough resources to process user data without over-allocating resources during low-traffic periods.
+- The operator used Kubernetes HPA to scale their 5G Core network functions, including the AMF and SMF, based on real-time CPU and memory usage.
+- VPA was deployed to adjust the resource limits for the UPF based on actual traffic demands. This ensured that each UPF pod had enough resources to process user data without over-allocating resources during low-traffic periods.
 - Cluster Autoscaler was integrated to manage the infrastructure costs by adding and removing nodes in the Kubernetes clusters based on the real-time requirements of the network.
 
 **Outcome**: The telecom operator achieved seamless scalability for their 5G core functions, ensuring efficient resource utilization and high availability. The autoscaling mechanisms allowed the network to handle peak traffic periods without manual intervention, reducing operational costs and improving service quality.
