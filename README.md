@@ -12,19 +12,19 @@ Over the past four years, we have been actively publishing our work on Medium, s
 
 This mini-book is a compressed knowhow guide that brings together all our published articles into a single, coherent narrative. Each chapter has been crafted to maintain the depth and clarity of the original content while providing a continuous and engaging storytelling experience. The main theme revolves around how Telco applications can be modernized using:
 
-- **Cloud Native Approach**
+- **AI-Native Approach** (Beyond Cloud Native)
 - **Service Mesh**
 - **Observability**
 - **OpenTelemetry (OTel)**
 - **eBPF**
 - **Data Engineering with Cloud**
-- **Use of AI for OSS&BSS**
+- **Use of AI for OSS & BSS**
 
 The mini-book jumps into blue waters of information (oh Antalya I missed you dearly!) with how data from OS, platform, and applications can feed into AI-driven OSS and BSS for platform engineering and Site Reliability Engineering (SRE). It also addresses how to avoid the pitfalls of AI blindness, ensuring that the AI systems integrated into Telco operations are both robust and reliable.
 
 ## Key Topics Covered
 
-- **Application Modernization with use of Kubernetes & Service Mesh**: Learn how these technologies are transforming Telco applications, enabling scalable and resilient infrastructures.
+- **Application Modernization with Kubernetes & Service Mesh**: Learn how these technologies are transforming Telco applications, enabling scalable and resilient infrastructures.
 - **Data Harvesting & Correlation**: Understand the importance of data as a product and how observability with OTel and eBPF can enhance system performance.
 - **AI-Driven OSS/BSS**: Discover how AI can be integrated into network operations and business processes, optimizing efficiency and customer experience.
 - **Avoiding AI Blindness**: Get insights into the challenges of over-reliance on AI and strategies to maintain critical human oversight.
