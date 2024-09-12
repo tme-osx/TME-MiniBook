@@ -2,11 +2,11 @@
 
 ## Introduction
 
-The evolution of telecommunications networks towards 5G and beyond has brought about new challenges in security and performance management. To address these challenges, innovative tools and technologies are being integrated into network infrastructure. One such technology is eBPF (Extended Berkeley Packet Filter), a powerful feature in the Linux kernel that allows for high-performance monitoring, tracing, and security enforcement. As 5G networks become more distributed and complex, eBPF's ability to provide deep observability and real-time insights into system behavior makes it an invaluable tool for telecom operators.
+The evolution of telecommunications networks towards 5G and beyond has brought about new challenges in security and performance management. To address these challenges, innovative tools and technologies are being integrated into network infrastructure. One such technology is **eBPF (Extended Berkeley Packet Filter)**, a powerful feature in the Linux kernel that allows for high-performance monitoring, tracing, and security enforcement. As 5G networks become more distributed and complex, eBPF's ability to provide deep observability and real-time insights into system behavior makes it an invaluable tool for telecom operators.
 
 ## What is eBPF?
 
-eBPF (Extended Berkeley Packet Filter) is a revolutionary technology that enables the execution of custom programs within the Linux kernel without changing the kernel source code or requiring additional modules. This capability allows eBPF to perform a wide range of tasks, including network packet filtering, performance monitoring, and security enforcement, with minimal overhead. 
+**eBPF (Extended Berkeley Packet Filter)** is a revolutionary technology that enables the execution of custom programs within the Linux kernel without changing the kernel source code or requiring additional modules. This capability allows eBPF to perform a wide range of tasks, including network packet filtering, performance monitoring, and security enforcement, with minimal overhead.
 
 ### Key Features of eBPF:
 
@@ -71,7 +71,7 @@ Beyond observability, eBPF is also a powerful tool for enforcing security polici
    - Telecom operators can use eBPF to enforce policies that prevent unauthorized access to sensitive network functions, reducing the risk of security breaches.
 
 2. **Anomaly Detection**:
-   - eBPF can be used to detect anomalies in system behavior, such as unusual patterns of system calls or network traffic that may indicate a security threat. 
+   - eBPF can be used to detect anomalies in system behavior, such as unusual patterns of system calls or network traffic that may indicate a security threat.
    - By analyzing these anomalies in real-time, eBPF can trigger alerts or automatically block suspicious activity, enhancing the security of the 5G Core.
 
 3. **DDoS Protection**:
