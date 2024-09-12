@@ -54,9 +54,39 @@ Service mesh technology, such as Istio, provides a dedicated infrastructure laye
 
 The 5G solution stack can be categorized into four main components: hardware or cloud provider infrastructure, application platform, 5G applications, and management & orchestration. The infrastructure provides the necessary compute, network, and storage resources, while the application platform accommodates 5G applications with features like declarative state consistency, scaling, healing, and monitoring. The management and orchestration layer ensures dynamic scaling and efficient operation across multiple locations, further augmented by AI-driven decision-making.
 
-...
+### Infrastructure
 
-(Continue with the detailed explanation of infrastructure, application platform, 5G applications, and management, incorporating AI-driven elements throughout the text)
+The infrastructure layer can be composed of baremetal compute, storage, and networking components for on-premise deployments or services and resources provided by public cloud service providers. In the case of on-premise data centers, service providers have the freedom and responsibility of selecting and maintaining all the necessary hardware and auxiliary services. Hyperscalers, on the other hand, provide all the core services, such as compute, network, and storage, as well as infrastructure sub-utilities (e.g., NTP source), supplementary network functions (e.g., firewalls, load balancers), and add-on software services such as identity management and infrastructure automation toolboxes.
+
+- **AI-Enhanced Infrastructure**: In an AI-native architecture, the infrastructure itself becomes more intelligent. AI models analyze usage patterns, power consumption, and resource allocation to optimize infrastructure performance and energy efficiency. AI-based monitoring tools detect early signs of hardware failure, enabling predictive maintenance, reducing downtime, and extending the lifecycle of physical assets.
+
+### Application Platform
+
+The application platform is the core engine that runs the 5G application stack. Key components include container execution and orchestration platforms, application sub-utilities (dashboards, APIs, pluggable resources), and additive DevOps and platform-management toolboxes. This platform is not a singleton instance but a distributed, highly available, and resilient open-source software stack.
+
+- **AI-Powered Orchestration**: Kubernetes orchestrates containerized applications, but in AI-native environments, AI-driven orchestration predicts and dynamically adjusts the application workloads based on real-time data. For example, the system can autonomously scale up User Plane Functions (UPF) during peak hours or reduce the footprint during off-peak times, maximizing resource utilization while minimizing costs.
+- **Continuous AI Integration**: AI models are continuously integrated into the platform via CI/CD pipelines, allowing new AI models to be deployed rapidly for specific network optimizations, such as enhancing data routing, traffic management, or predictive analytics.
+
+### 5G Applications
+
+5G applications can be subcategorized into:
+
+- **Core Network Functions (CNFs)**: These include essential network functions like the Access and Mobility Management Function (AMF), Session Management Function (SMF), and User Plane Function (UPF).
+  - **AI in CNFs**: AI-native systems use machine learning algorithms to predict demand and dynamically manage AMF and SMF resources, optimizing user mobility and session management based on real-time data.
+
+- **Supplementary Functions**: These include functions that enhance the capabilities of the core network, such as Network Exposure Function (NEF) and Network Slice Selection Function (NSSF).
+  - **AI in Supplementary Functions**: AI-driven network slicing adapts the allocation of resources to different network slices dynamically, based on current and predicted traffic. AI models analyze user behavior to offer predictive service customization for NEF and ensure optimal resource usage for each slice via NSSF.
+
+- **Management Functions**: These involve the orchestration and management of the network, including functions like the Network Repository Function (NRF) and the Policy Control Function (PCF).
+  - **AI in Management Functions**: AI models analyze network performance and suggest policy optimizations in real-time. For instance, AI can predict the need for a new policy based on traffic anomalies detected by the network and automatically adjust the PCF to manage network loads more efficiently.
+
+### Management & Orchestration
+
+By the nature of communication solutions, the availability of 5G Core can be enhanced with multi-location deployment and location-aware access enablement to allow dynamic resource allocation and management. Multiple platform instances are required to host 5G application stacks, ensuring smooth and consistent platform creation, management, and application stack delivery. Leveraging the GitOps pattern, which uses Git as a single source of truth, is crucial for achieving homogeneous and scalable 5G Core across on-premise and hyperscaler environments.
+
+- **AI-Augmented Orchestration**: AI-native orchestration goes beyond manual configurations or simple automation rules. AI models constantly analyze network traffic and application performance to optimize resources across locations. For instance, AI can dynamically balance loads across different clusters to minimize latency for high-priority applications. This provides an adaptive and responsive orchestration layer that can continuously improve over time.
+  
+- **Proactive Management**: AI-driven management tools enable telecom operators to anticipate failures before they occur. Through machine learning-based anomaly detection, AI can spot potential risks and trigger automated responses, such as spinning up additional resources or rerouting traffic, without human intervention.
 
 ## Case Studies and Real-World Applications
 
