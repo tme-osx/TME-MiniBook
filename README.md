@@ -38,7 +38,7 @@ Each chapter of the book is available as an individual `.md` file in this reposi
 - **[Introduction](./Introduction.md)**
 - **[Chapter 1: The Start Point for Successful Evolution](./Chapter-01.md)**
 - **[Chapter 2: Distributed & Scalable Solution Powered with Observability](./Chapter-02.md)**
-- **[Chapter 3: Autoscaled 5G Core](./Chapter-03.md)**
+- **[Chapter 3: Autoscaled Deployment Stacks](./Chapter-03.md)**
 - **[Chapter 4: Enhancing Security and Performance with eBPF](./Chapter-04.md)**
 - **[Chapter 5: AI-Driven OSS and BSS](./Chapter-05.md)**
 - **[Chapter 6: Observability with OpenTelemetry (OTel)](./Chapter-06.md)**
