@@ -20,7 +20,7 @@ This mini-book is a compressed knowhow guide that brings together all our publis
 - **Data Engineering with Cloud**
 - **Use of AI for OSS & BSS**
 
-The mini-book jumps into blue waters of information (oh Antalya I missed you dearly!) with how data from OS, platform, and applications can feed into AI-driven OSS and BSS for platform engineering and Site Reliability Engineering (SRE). It also addresses how to avoid the pitfalls of AI blindness, ensuring that the AI systems integrated into Telco operations are both robust and reliable.
+The mini-book jumps into salty clear blue waters of information (oh Antalya I missed you dearly!) with how data from OS, platform, and applications can feed into AI-driven OSS and BSS for platform engineering and Site Reliability Engineering (SRE). It also addresses how to avoid the pitfalls of AI blindness, ensuring that the AI systems integrated into Telco operations are both robust and reliable.
 
 ## Key Topics Covered
 
