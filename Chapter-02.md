@@ -46,7 +46,7 @@ In 5G networks, storage observability is crucial for ensuring data availability 
 
 In the application layer, observability focuses on monitoring the performance and reliability of Containerized Network Functions (CNFs) and Virtualized Network Functions (VNFs). These functions are critical to the operation of 5G networks and require continuous monitoring to ensure they are meeting performance and latency requirements.
 
-- **Custom Metrics with OpenTelemetry (OTel)**: OTel allows operators to instrument CNFs and VNFs with custom metrics, enabling detailed monitoring for specific metrics, like packet processing rates, session establishment times, and error rates.
+- **Custom Metrics with OpenTelemetry (OTel)**: OTel allows operators to instrument CNFs and VNFs with custom metrics, enabling detailed monitoring for specific metrics, like packet processing rates, session establishment times, and error rates. We will go in to details of OTel framework and how to use it with your application in coming chapters.
 - **End-to-End Tracing**: OTel’s tracing capabilities provide insights into the entire lifecycle of a network request, from the initial connection to the final data packet delivery, helping to identify bottlenecks and optimize performance.
 
 #### Platform Layer: Kubernetes Observability
