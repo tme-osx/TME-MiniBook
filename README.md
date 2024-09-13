@@ -15,6 +15,7 @@ This mini-book is a compressed knowhow guide that brings together all our publis
 - **AI-Native Approach** (Beyond Cloud Native)
 - **Service Mesh**
 - **Observability**
+- **AI enriched Security**
 - **OpenTelemetry (OTel)**
 - **eBPF**
 - **Data Engineering with Cloud**
