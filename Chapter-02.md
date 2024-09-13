@@ -1,4 +1,4 @@
-# Chapter 2: Distributed Scalable 5G with Observability
+# Chapter 2: Distributed & Scalable Solution Powered with Observability
 
 ## Abstract
 
