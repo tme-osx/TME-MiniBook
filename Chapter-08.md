@@ -1,4 +1,4 @@
-# Chapter 7: Case Studies from TME-AIX
+# Chapter 8: Case Studies from TME-AIX
 
 ## Introduction
 
