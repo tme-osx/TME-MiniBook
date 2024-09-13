@@ -1,4 +1,4 @@
-# Chapter 3: Autoscaled 5G Core
+# Chapter 3: Autoscaled Deployment Stacks
 
 ## Introduction
 
