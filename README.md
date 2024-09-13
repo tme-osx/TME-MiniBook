@@ -43,7 +43,7 @@ Each chapter of the book is available as an individual `.md` file in this reposi
 - **[Chapter 4: Enhancing Security and Performance with AI](./Chapter-04.md)**
 - **[Chapter 5: AI-Driven OSS and BSS](./Chapter-05.md)**
 - **[Chapter 6: Observability with OpenTelemetry (OTel)](./Chapter-06.md)**
-- **[Chapter 7: Enhanced Barkley Packet Filter (eBPF)](./Chapter-07.md)**
+- **[Chapter 7: eBPF – Unleashing the Power of the Linux Kernel](./Chapter-07.md)**
 - **[Chapter 8: Case Studies from TME-AIX](./Chapter-08.md)**
 - **[Final Summary and Future Outlook](./Final.md)**
 
